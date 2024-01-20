@@ -1,2 +1,64 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+/* Centered dedications */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* End centered dedications */
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
+/* tally */
+table{
+	margin: 1em auto;
+}
+
+table td:last-child{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+table tfoot td:last-child{
+	border-top: 1px solid;
+}
+/* end of tally */
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
