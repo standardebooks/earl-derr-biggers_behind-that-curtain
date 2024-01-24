@@ -56,10 +56,10 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Earl_Derr_Biggers</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81035377</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">Édouard Vuillard</dc:contributor>
-		<meta property="file-as" refines="#artist">Vuillard, Édouard</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Édouard_Vuillard</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50024507</meta>
+		<dc:contributor id="artist">Arthur Beecher Carles</dc:contributor>
+		<meta property="file-as" refines="#artist">Carles, Arthur Beecher</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arthur_Beecher_Carles</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85809978</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David T. Jones</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Jones, David T.</meta>
