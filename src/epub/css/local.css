@@ -49,12 +49,12 @@ table{
 	margin: 1em auto;
 }
 
-table td:last-child{
+table td{
 	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
 
-table tfoot td:last-child{
+table tfoot td{
 	border-top: 1px solid;
 }
 /* end of tally */
